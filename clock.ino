@@ -1,3 +1,21 @@
+
+int abc = 33;
+int bcd = 34;
+int cde = 35;
+int def = 36;
+int efg = 37;
+int fgh = 38;
+int ghi = 39;
+int hij = 40;
+int ABC = 41;
+int BCD = 42;
+int CDE = 43;
+int DEF = 44;
+int EFG = 45;
+int FGH = 46;
+int GHI = 47;
+int HIJ = 48;
+
 int a = 1;
 int b = 2;
 int c = 3;
@@ -34,6 +52,8 @@ int x = 60000;
 int y = 600000;
 int z = 3600000;
 int xyz = 36000000;
+int X = 1000;
+int Y = 10000;
 
 void setup() {
   pinMode(a, OUTPUT);
@@ -105,12 +125,6 @@ void loop() {
   delay(y);
   tenminut6();
   delay(y);
-  tenminut7();
-  delay(y);
-  tenminut8();
-  delay(y);
-  tenminut9();
-  delay(y);
   hour0();
   delay(z);
   hour0();
@@ -145,11 +159,41 @@ void loop() {
   delay(xyz);
   tenhour6();
   delay(xyz);
-  tenhour7();
-  delay(xyz);
-  tenhour8();
-  delay(xyz);
-  tenhour9();
+  second0();
+  delay (X);
+  second1();
+  delay (X);
+  second2();
+  delay (X);
+  second3();
+  delay (X);
+  second4();
+  delay (X);
+  second5();
+  delay (X);
+  second6();
+  delay (X);
+  second7();
+  delay (X);
+  second8();
+  delay (X);
+  second9();
+  delay (X);
+  tensecond0();
+  delay (Y);
+  tensecond1();
+  delay (Y);
+  tensecond2();
+  delay (Y);
+  tensecond3();
+  delay (Y);
+  tensecond4();
+  delay (Y);
+  tensecond5();
+  delay (Y);
+  tensecond6();
+  delay (Y);
+  
 }
 
 void minut0() {
@@ -337,41 +381,6 @@ void tenminut6() {
   digitalWrite(G, LOW);
   digitalWrite(H, HIGH);
 }
-
-void tenminut7() {
-  digitalWrite(A, LOW);
-  digitalWrite(B, LOW);
-  digitalWrite(C, LOW);
-  digitalWrite(D, LOW);
-  digitalWrite(E, LOW);
-  digitalWrite(F, LOW);
-  digitalWrite(G, LOW);
-  digitalWrite(H, HIGH);
-
-}
-
-void tenminut8() {
-  digitalWrite(A, LOW);
-  digitalWrite(B, LOW);
-  digitalWrite(C, LOW);
-  digitalWrite(D, LOW);
-  digitalWrite(E, LOW);
-  digitalWrite(F, LOW);
-  digitalWrite(G, LOW);
-  digitalWrite(H, HIGH);
-
-}
-
-void tenminut9() {
-  digitalWrite(A, LOW);
-  digitalWrite(B, LOW);
-  digitalWrite(C, LOW);
-  digitalWrite(D, LOW);
-  digitalWrite(E, LOW);
-  digitalWrite(F, LOW);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, HIGH);
-}
 void hour0() {
   digitalWrite(ab, LOW);
   digitalWrite(bc, LOW);
@@ -555,36 +564,187 @@ void tenhour6() {
   digitalWrite(GH, LOW);
   digitalWrite(HI, HIGH);
 }
-
-void tenhour7() {
-  digitalWrite(AB, LOW);
-  digitalWrite(BC, LOW);
-  digitalWrite(CD, LOW);
-  digitalWrite(DE, LOW);
-  digitalWrite(EF, LOW);
-  digitalWrite(FG, LOW);
-  digitalWrite(GH, LOW);
-  digitalWrite(HI, HIGH);
+void second0() {
+  digitalWrite(abc, LOW);
+  digitalWrite(bcd, LOW);
+  digitalWrite(cde, LOW);
+  digitalWrite(def, LOW);
+  digitalWrite(efg, LOW);
+  digitalWrite(fgh, LOW);
+  digitalWrite(ghi, HIGH);
+  digitalWrite(hij, HIGH);
 }
 
-void tenhour8() {
-  digitalWrite(AB, LOW);
-  digitalWrite(BC, LOW);
-  digitalWrite(CD, LOW);
-  digitalWrite(DE, LOW);
-  digitalWrite(EF, LOW);
-  digitalWrite(FG, LOW);
-  digitalWrite(GH, LOW);
-  digitalWrite(HI, HIGH);
+void second1() {
+  digitalWrite(abc, HIGH);
+  digitalWrite(bcd, LOW);
+  digitalWrite(cde, LOW);
+  digitalWrite(def, HIGH);
+  digitalWrite(efg, HIGH);
+  digitalWrite(fgh, HIGH);
+  digitalWrite(fgh, HIGH);
+  digitalWrite(ghi, HIGH);
 }
 
-void tenhour9() {
-  digitalWrite(AB, LOW);
-  digitalWrite(BC, LOW);
-  digitalWrite(CD, LOW);
-  digitalWrite(DE, LOW);
-  digitalWrite(EF, LOW);
-  digitalWrite(FG, LOW);
-  digitalWrite(GH, HIGH);
-  digitalWrite(HI, HIGH);
+void second2() {
+  digitalWrite(abc, LOW);
+  digitalWrite(bcd, LOW);
+  digitalWrite(cde, HIGH);
+  digitalWrite(def, LOW);
+  digitalWrite(efg, LOW);
+  digitalWrite(fgh, HIGH);
+  digitalWrite(ghi, LOW);
+  digitalWrite(hij, HIGH);
+}
+
+void second3() {
+  digitalWrite(abc, LOW);
+  digitalWrite(bcd, LOW);
+  digitalWrite(cde, LOW);
+  digitalWrite(def, LOW);
+  digitalWrite(efg, HIGH);
+  digitalWrite(fgh, HIGH);
+  digitalWrite(ghi, LOW);
+  digitalWrite(hij, HIGH);
+}
+
+void second4() {
+  digitalWrite(abc, HIGH);
+  digitalWrite(bcd, LOW);
+  digitalWrite(cde, LOW);
+  digitalWrite(def, HIGH);
+  digitalWrite(efg, HIGH);
+  digitalWrite(fgh, LOW);
+  digitalWrite(ghi, LOW);
+  digitalWrite(hij, HIGH);
+}
+
+void second5() {
+  digitalWrite(abc, LOW);
+  digitalWrite(bcd, LOW);
+  digitalWrite(def, LOW);
+  digitalWrite(efg, HIGH);
+  digitalWrite(fgh, LOW);
+  digitalWrite(ghi, LOW);
+  digitalWrite(hij, HIGH);
+}
+
+void second6() {
+  digitalWrite(abc, LOW);
+  digitalWrite(bcd, HIGH);
+  digitalWrite(cde, LOW);
+  digitalWrite(def, LOW);
+  digitalWrite(efg, LOW);
+  digitalWrite(fgh, LOW);
+  digitalWrite(ghi, LOW);
+  digitalWrite(hij, HIGH);
+}
+
+void second7() {
+  digitalWrite(abc, LOW);
+  digitalWrite(bcd, LOW);
+  digitalWrite(cde, LOW);
+  digitalWrite(def, LOW);
+  digitalWrite(efg, LOW);
+  digitalWrite(fgh, LOW);
+  digitalWrite(ghi, LOW);
+  digitalWrite(hij, HIGH);
+}
+
+void second8() {
+  digitalWrite(abc, LOW);
+  digitalWrite(bcd, LOW);
+  digitalWrite(cde, LOW);
+  digitalWrite(def, LOW);
+  digitalWrite(efg, LOW);
+  digitalWrite(fgh, LOW);
+  digitalWrite(ghi, LOW);
+  digitalWrite(hij, HIGH);
+}
+
+void second9() {
+  digitalWrite(abc, LOW);
+  digitalWrite(bcd, LOW);
+  digitalWrite(cde, LOW);
+  digitalWrite(def, LOW);
+  digitalWrite(efg, LOW);
+  digitalWrite(fgh, LOW);
+  digitalWrite(ghi, HIGH);
+  digitalWrite(hij, HIGH);
+}
+
+void tensecond0() {
+  digitalWrite(ABC, LOW);
+  digitalWrite(BCD, LOW);
+  digitalWrite(CDE, LOW);
+  digitalWrite(DEF, LOW);
+  digitalWrite(EFG, LOW);
+  digitalWrite(FGH, LOW);
+  digitalWrite(GHI, HIGH);
+  digitalWrite(HIJ, HIGH);
+}
+
+void tensecond1() {
+  digitalWrite(ABC, HIGH);
+  digitalWrite(BCD, LOW);
+  digitalWrite(CDE, LOW);
+  digitalWrite(DEF, HIGH);
+  digitalWrite(EFG, HIGH);
+  digitalWrite(FGH, HIGH);
+  digitalWrite(FGH, HIGH);
+  digitalWrite(GHI, HIGH);
+}
+
+void tensecond2() {
+  digitalWrite(ABC, LOW);
+  digitalWrite(BCD, LOW);
+  digitalWrite(CDE, HIGH);
+  digitalWrite(DEF, LOW);
+  digitalWrite(EFG, LOW);
+  digitalWrite(FGH, HIGH);
+  digitalWrite(GHI, LOW);
+  digitalWrite(HIJ, HIGH);
+}
+
+void tensecond3() {
+  digitalWrite(ABC, LOW);
+  digitalWrite(BCD, LOW);
+  digitalWrite(CDE, LOW);
+  digitalWrite(DEF, LOW);
+  digitalWrite(EFG, HIGH);
+  digitalWrite(FGH, HIGH);
+  digitalWrite(GHI, LOW);
+  digitalWrite(HIJ, HIGH);
+}
+
+void tensecond4() {
+  digitalWrite(ABC, HIGH);
+  digitalWrite(BCD, LOW);
+  digitalWrite(CDE, LOW);
+  digitalWrite(DEF, HIGH);
+  digitalWrite(EFG, HIGH);
+  digitalWrite(FGH, LOW);
+  digitalWrite(GHI, LOW);
+  digitalWrite(HIJ, HIGH);
+}
+
+void tensecond5() {
+  digitalWrite(ABC, LOW);
+  digitalWrite(BCD, LOW);
+  digitalWrite(DEF, LOW);
+  digitalWrite(EFG, HIGH);
+  digitalWrite(FGH, LOW);
+  digitalWrite(GHI, LOW);
+  digitalWrite(HIJ, HIGH);
+}
+
+void tensecond6() {
+  digitalWrite(ABC, LOW);
+  digitalWrite(BCD, HIGH);
+  digitalWrite(CDE, LOW);
+  digitalWrite(DEF, LOW);
+  digitalWrite(EFG, LOW);
+  digitalWrite(FGH, LOW);
+  digitalWrite(GHI, LOW);
+  digitalWrite(HIJ, HIGH);
 }
